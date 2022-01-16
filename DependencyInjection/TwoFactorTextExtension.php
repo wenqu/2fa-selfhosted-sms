@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Erkens\Security\TwoFactorTextBundle\DependencyInjection;
+namespace Wenqu\Security\TwoFactorTextBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
