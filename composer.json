@@ -7,8 +7,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Michael Erkens",
-            "email": "erkens@users.noreply.github.com"
+            "name": "KTH",
+            "email": "wenqu@users.noreply.github.com"
         }
     ],
     "require": {
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "wenqu\\Security\\TwoFactorTextBundle\\": ""
+            "Wenqu\\Security\\TwoFactorTextBundle\\": ""
         }
     }
 }
