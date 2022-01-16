@@ -1,4 +1,4 @@
-erkens/2fa-text
+wenqu/2fa-text
 ===============
 
 This package extends [scheb/2fa-bundle](https://github.com/scheb/2fa-bundle) with two-factor authentication via text messages.
