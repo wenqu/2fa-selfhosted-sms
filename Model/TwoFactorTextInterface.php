@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Erkens\Security\TwoFactorTextBundle\Model;
+namespace Wenqu\Security\TwoFactorTextBundle\Model;
 
 interface TwoFactorTextInterface
 {
