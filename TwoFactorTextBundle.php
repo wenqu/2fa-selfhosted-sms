@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Erkens\Security\TwoFactorTextBundle;
+namespace Wenqu\Security\TwoFactorTextBundle;
 
-use Erkens\Security\TwoFactorTextBundle\DependencyInjection\Compiler\TextCompilerPass;
+use Wenqu\Security\TwoFactorTextBundle\DependencyInjection\Compiler\TextCompilerPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
