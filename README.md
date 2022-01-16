@@ -10,16 +10,16 @@ Usage
 After you have installed and configured [scheb/2fa-bundle](https://github.com/scheb/2fa-bundle) you can install this package:
 
 ```
-composer require erkens/2fa-text
+composer require wenqu/2fa-text
 ```
 
-First thing to do is make a new service that implements `Erkens\Security\TwoFactorTextBundle\Generator\CodeGeneratorInterface`
+First thing to do is make a new service that implements `wenqu\Security\TwoFactorTextBundle\Generator\CodeGeneratorInterface`
 so we can actually send a sms or text message. This service can then be used in the configuration as "auth_code_sender":
 
 ```
 two_factor_text:
     enabled: true
-    auth_code_sender: Erkens\Security\TwoFactorTextBundle\TextSender\ExampleTextSender
+    auth_code_sender: wenqu\Security\TwoFactorTextBundle\TextSender\ExampleTextSender
     digits: 6
     text: 'To login, use this code: %s'
     template: '@SchebTwoFactor/Authentication/form.html.twig'
