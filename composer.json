@@ -3,7 +3,7 @@
     "type": "library",
     "description": "Extends scheb/2fa-bundle with two-factor authentication via simple text messages",
     "keywords": ["2fa", "two-factor", "two-step", "authentication", "symfony", "sms", "text"],
-    "homepage": "https://github.com/wenqu/2fa-text",
+    "homepage": "https://github.com/wenqu/2fa-selfhosted-sms",
     "license": "MIT",
     "authors": [
         {
