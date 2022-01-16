@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Erkens\Security\TwoFactorTextBundle\DependencyInjection\Compiler;
+namespace Wenqu\Security\TwoFactorTextBundle\DependencyInjection\Compiler;
 
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
