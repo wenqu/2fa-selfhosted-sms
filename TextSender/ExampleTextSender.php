@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Erkens\Security\TwoFactorTextBundle\TextSender;
+namespace Wenqu\Security\TwoFactorTextBundle\TextSender;
 
-use Erkens\Security\TwoFactorTextBundle\Model\TwoFactorTextInterface;
+use Wenqu\Security\TwoFactorTextBundle\Model\TwoFactorTextInterface;
 use Symfony\Component\HttpClient\HttpClient;
 
 class ExampleTextSender implements AuthCodeTextInterface
