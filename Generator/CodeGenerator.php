@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Erkens\Security\TwoFactorTextBundle\Generator;
+namespace Wenqu\Security\TwoFactorTextBundle\Generator;
 
-use Erkens\Security\TwoFactorTextBundle\TextSender\AuthCodeTextInterface;
-use Erkens\Security\TwoFactorTextBundle\Model\TwoFactorTextInterface;
+use Wenqu\Security\TwoFactorTextBundle\TextSender\AuthCodeTextInterface;
+use Wenqu\Security\TwoFactorTextBundle\Model\TwoFactorTextInterface;
 use Scheb\TwoFactorBundle\Model\PersisterInterface;
 
 class CodeGenerator implements CodeGeneratorInterface
